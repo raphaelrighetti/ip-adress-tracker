@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input,
+.button {
+  padding: .75em 1em;
+  border: none;
+}
+
+.input {
+  min-width: 25em;
+  border-top-left-radius: .75em;
+  border-bottom-left-radius: .75em;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-grey);
+  border-top-right-radius: .75em;
+  border-bottom-right-radius: .75em;
+}
