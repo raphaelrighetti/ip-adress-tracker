@@ -14,7 +14,7 @@ const InformationList = ({ data, loading, error, request }) => {
       return 'loading...';
     }
 
-    if (error || !data) {
+    if (error || !data || !data.location) {
       return 'N/A';
     }
 
