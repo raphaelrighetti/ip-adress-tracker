@@ -8,7 +8,11 @@ const Attribution = () => {
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
       </a>
-      . Coded by <a href="#">Raphael Righetti</a>.
+      . Coded by{' '}
+      <a target="_blank" href="https://raphaelrighetti.com/">
+        Raphael Righetti
+      </a>
+      .
     </div>
   );
 };

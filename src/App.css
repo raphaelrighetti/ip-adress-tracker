@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
 #root {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 40% 60%;
+  height: 100svh;
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
 }

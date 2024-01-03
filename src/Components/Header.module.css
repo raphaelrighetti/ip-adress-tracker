@@ -1,13 +1,14 @@
 .container {
+  grid-row: 1/1;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 2em;
   width: 100%;
-  min-height: 30vh;
   padding: 1em;
+  padding-top: 3em;
   background-image: url('../assets/pattern-bg-desktop.png');
   background-size: cover;
 }

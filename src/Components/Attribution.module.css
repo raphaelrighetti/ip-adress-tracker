@@ -1,8 +1,17 @@
 .attribution {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 11px;
   text-align: center;
+  color: white;
+  background-color: var(--very-dark-grey);
+  padding: .5em;
+  border-radius: 1em;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #609ffe;
 }
